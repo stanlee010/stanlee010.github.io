@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: rgb(228, 161, 161);
+}
+
+.shopping-area99 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: green; */
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  background: #f1f1f1;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* flex-wrap: nowrap; */
+  /* position: absolute; */
+  /* top: 50px;
+    left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.car-card {
+  margin: 0px;
+}
+
+.top-section {
+  height: 310px;
+  overflow: hidden;
+  background: white;
+  position: relative;
+}
+
+#image-container,
+#image-container1,
+#image-container2,
+#image-container3,
+#image-container4,
+#image-container5,
+#image-container6,
+#image-container7,
+#image-container8,
+#image-container9 {
+  width: 360px;
+  height: 240px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav img {
+  width: 80px;
+  height: auto;
+  border: 1px solid black;
+  margin: 8px 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav img:hover {
+  border: green;
+}
+
+.price {
+
+  color: rgb(80, 21, 21);
+  font-size: 24px;
+}
+
+.product-info {
+  padding: 24px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333;
+}
+
+.disc {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.btn {
+  display: block;
+  background: green;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #333;
+  color: white;
+}
